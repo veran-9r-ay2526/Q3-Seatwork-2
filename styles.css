@@ -1,0 +1,45 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/yellow-black-wavy-halftone-background-vector_53876-67540.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+}
+.main1{
+    background-color: black;
+    width: 700px;
+    height: 250px;
+    margin: auto;
+    border-radius: 20px;
+}
+main{
+    text-align: center;
+}
+.btn-dark{
+    width: 100px;
+    height: 50px;
+    margin-left: 1250px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-discount{
+    font-size: 20px;
+    height: 40px;
+}
+.buttoner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    left: 460px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}

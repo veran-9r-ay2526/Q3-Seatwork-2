@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Seatwork 2: Discount Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="bg-warning text-white p-4">
+     <div class="container-fluid">
+         <div class="header1">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/ComputerLand_wordmark.svg" alt="LOGO" height="60">
+             <button class="btn btn-dark ">PROMO</button>
+         </div>
+        </div>
+    </header>
+
+<div class="main1 text-white">
+    <main class="container my-5">
+        <h3 class="p-4">Want a Gaming Laptop?</h3>
+        <p>Enter your budget to find the right one!</p>
+        <input type="number" id="budgetInput" class="form-control p-2 mb-3 inp" placeholder="Enter your budget">
+        <button class="Locations btn btn-warning p-2">REFRESH!</button>
+    </main>
+
+        <button class="brand-discount mb-2 rounded bg-warning text-dark border-dark" onclick="getDiscount()">Brands & Discounts</button>
+
+        <div class="buttoner bg-warning">
+            <p id="discOUNT"></p>
+</div>
+
+    <footer class="bg-dark text-white fixed-bottom text-center p-3">
+        <p>&copy; 2026 ComputerLand. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
